@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+    <link href="css/application.css" rel="stylesheet" type="text/css" media="all">
+    <script data-main="js/main" src="js/vendor/require.js"></script>
+  </head>
+  <body>
+    <div class="location-wrapper">
+        <input type="text" name="location" placeholder="Enter your location">
+    </div>
+    <p class="errors"></p>
+    <div class="weather empty">
+      <div class="result">
+        <h2></h2>
+        <ul>
+          <li class="location"></li>
+          <li class="currently"></li>
+        </ul>
+      </div>
+      <div class="loader-wrap">
+        <div class="loader">
+          <span><i></i></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
